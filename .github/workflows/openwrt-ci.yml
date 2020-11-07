@@ -12,6 +12,10 @@ on:
     - cron: 0 20 * * *
   release:
     types: [published]
+  push:
+    branches: [ openwrt-18.06 ]
+  pull_request:
+    branches: [ openwrt-18.06 ]
 
 jobs:
 
